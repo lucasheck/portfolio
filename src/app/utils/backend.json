@@ -1,0 +1,50 @@
+[
+    {
+        "id": 3,
+        "name":"Typescript",
+        "value":388,
+        "percentage":80
+    },
+
+    {
+        "id": 4,
+        "name":"Javascript",
+        "value":412,
+        "percentage":85
+    },
+
+    {
+        "id": 13,
+        "name":"NodeJS",
+        "value":399,
+        "percentage":70
+    },
+
+    {
+        "id": 14,
+        "name":"Prisma Database",
+        "value":363,
+        "percentage":75
+    },
+
+    {
+        "id": 15,
+        "name":"Jest",
+        "value":242.5,
+        "percentage":50
+    },
+
+    {
+        "id": 16,
+        "name":"Fastify",
+        "value":291,
+        "percentage":60
+    },
+
+    {
+        "id": 17,
+        "name":"Rest API",
+        "value":388,
+        "percentage":80
+    }
+]

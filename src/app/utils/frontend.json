@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "name":"React",
+        "width": 388,
+        "percentage":80
+    },
+
+    {
+        "id": 2,
+        "name":"React-Redux",
+        "width":291,
+        "percentage":60
+    },
+
+    {
+        "id": 3,
+        "name":"Typescript",
+        "width":388,
+        "percentage":80
+    },
+
+    {
+        "id": 4,
+        "name":"Javascript",
+        "width":412,
+        "percentage":85
+    },
+
+    {
+        "id": 5,
+        "name":"HTML5",
+        "width":460,
+        "percentage":95
+    },
+
+    {
+        "id": 6,
+        "name":"CSS3",
+        "width":460,
+        "percentage":95
+    },
+
+    {
+        "id": 7,
+        "name":"Tailwind",
+        "width":460,
+        "percentage":95
+    },
+
+    {
+        "id": 8,
+        "name":"Scss",
+        "width":460,
+        "percentage":95
+    },
+
+    {
+        "id": 9,
+        "name":"NextJS",
+        "width":388,
+        "percentage":80
+    },
+
+    {
+        "id": 10,
+        "name":"UI / UX",
+        "width":399,
+        "percentage":70
+    }
+]

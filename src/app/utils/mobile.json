@@ -1,0 +1,43 @@
+[
+    {
+        "id": 18,
+        "name":"React Native",
+        "value":388,
+        "percentage":80
+    },
+
+    {
+        "id": 19,
+        "name":"Typescript",
+        "value":388,
+        "percentage":80
+    },
+
+    {
+        "id": 20,
+        "name":"Javascript",
+        "value":412.25,
+        "percentage":85
+    },
+
+    {
+        "id": 21,
+        "name":"Tailwind",
+        "value":460.75,
+        "percentage":95
+    },
+
+    {
+        "id": 22,
+        "name":"Expo",
+        "value":399.5,
+        "percentage":70
+    },
+
+    {
+        "id": 23,
+        "name":"UI / UX",
+        "value":399.5,
+        "percentage":70
+    }
+]
