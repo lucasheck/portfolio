@@ -32,6 +32,7 @@ import typescriptIcon from './assets/skills/typescript.svg'
 import uiuxIcon from './assets/skills/uiux.svg'
 import profilePhoto from './assets/about_me_photo.jpg'
 import sendMessageIcon from './assets/sendMessage.svg'
+import Link from 'next/link'
 
 export default function Home() {
   const [skillTab, setSkillTab] = useState(1)
@@ -105,16 +106,23 @@ export default function Home() {
               REACT DEVELOPER
             </span>
             <div className="flex flex-row gap-3">
-              <Image
-                src={Linkedin}
-                alt="linkedin"
-                className="cursor-pointer rounded-lg border border-white bg-white transition ease-linear hover:-translate-y-1 hover:translate-x-1 hover:bg-yellow-300"
-              />
-              <Image
-                src={Github}
-                alt="github"
-                className="cursor-pointer rounded-full border border-white bg-white transition ease-linear hover:-translate-y-1 hover:translate-x-1 hover:bg-yellow-300"
-              />
+              <Link
+                href="https://linkedin.com/in/lucas-tomaz-heck"
+                target="_blank"
+              >
+                <Image
+                  src={Linkedin}
+                  alt="linkedin"
+                  className="cursor-pointer rounded-lg border border-white bg-white transition ease-linear hover:-translate-y-1 hover:translate-x-1 hover:bg-yellow-300"
+                />
+              </Link>
+              <Link href="https://github.com/lucasheck" target="_blank">
+                <Image
+                  src={Github}
+                  alt="github"
+                  className="cursor-pointer rounded-full border border-white bg-white transition ease-linear hover:-translate-y-1 hover:translate-x-1 hover:bg-yellow-300"
+                />
+              </Link>
               <Image
                 src={Resume}
                 alt="resume"
@@ -134,7 +142,7 @@ export default function Home() {
 
       <section
         id="projects"
-        className="flex h-auto flex-col items-center bg-gradient-to-t from-secondary_200 from-[99%] to-heroGradientEnd to-100% pb-10 text-primary_600"
+        className="flex h-auto scroll-mt-20 flex-col items-center bg-gradient-to-t from-secondary_200 from-[99%] to-heroGradientEnd to-100% pb-10 text-primary_600"
       >
         <h2 className="pt-14 text-5xl font-medium after:absolute after:left-1/2 after:z-30 after:h-1 after:w-7 after:-translate-x-1/2 after:translate-y-16 after:rounded-xl after:bg-accent_400 after:content-['']">
           Recent Works
@@ -159,10 +167,10 @@ export default function Home() {
             </div>
 
             <div id="card-buttons" className="flex w-4/5 justify-evenly pb-6">
-              <a
-                id="btnGithub"
+              <Link
+                href="https://github.com/lucasheck/crown-clothing"
+                target="_blank"
                 className="flex h-[50px] w-36 items-center justify-evenly rounded-[25px] bg-accent_400 px-2 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
-                href="#"
               >
                 <Image src={GithubBtn} alt="Github Button Image" height={30} />
                 <Image
@@ -171,12 +179,12 @@ export default function Home() {
                   className="h-8"
                 />
                 github
-              </a>
+              </Link>
 
-              <a
-                id="btnLive"
+              <Link
+                href="https://master--boisterous-pika-b91b7d.netlify.app/"
                 className="flex h-[50px] w-40 items-center justify-evenly rounded-[25px] bg-accent_400 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
-                href="#"
+                target="_blank"
               >
                 <Image src={LiveBtn} alt="Github Button Image" height={30} />
                 <Image
@@ -185,7 +193,7 @@ export default function Home() {
                   className="h-8"
                 />
                 live demo
-              </a>
+              </Link>
             </div>
 
             <div className="mt-5 flex flex-col items-center gap-3">
@@ -216,10 +224,10 @@ export default function Home() {
             </div>
 
             <div id="card-buttons" className="flex w-4/5 justify-evenly pb-6">
-              <a
-                id="btnGithub"
+              <Link
                 className="flex h-[50px] w-36 items-center justify-evenly rounded-[25px] bg-accent_400 px-2 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
-                href="#"
+                href="https://github.com/lucasheck/spacetime_web"
+                target="_blank"
               >
                 <Image src={GithubBtn} alt="Github Button Image" height={30} />
                 <Image
@@ -228,12 +236,13 @@ export default function Home() {
                   className="h-8"
                 />
                 github
-              </a>
+              </Link>
 
-              <a
+              <Link
                 id="btnLive"
                 className="flex h-[50px] w-40 items-center justify-evenly rounded-[25px] bg-accent_400 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
-                href="#"
+                href="https://www.linkedin.com/posts/lucas-tomaz-heck_nlw-rocketseat-neverstoplearning-activity-7073977255110033409-xA4k"
+                target="_blank"
               >
                 <Image src={LiveBtn} alt="Github Button Image" height={30} />
                 <Image
@@ -242,7 +251,7 @@ export default function Home() {
                   className="h-8"
                 />
                 video demo
-              </a>
+              </Link>
             </div>
 
             <div className="mt-5 flex flex-col items-center gap-3">
@@ -264,7 +273,7 @@ export default function Home() {
 
       <section
         id="skills"
-        className="flex h-[100vh] flex-col items-center bg-gradient-to-t from-primary_600 from-[98%] to-secondary_200 to-100%"
+        className="flex h-[100vh] scroll-mt-16 flex-col items-center bg-gradient-to-t from-primary_600 from-[98%] to-secondary_200 to-100%"
       >
         <h2 className="py-14 text-5xl font-medium after:absolute after:left-1/2 after:z-30 after:h-1 after:w-7 after:-translate-x-1/2 after:translate-y-16 after:rounded-xl after:bg-accent_400 after:content-['']">
           Professional Skills
@@ -499,7 +508,10 @@ export default function Home() {
 
       {/** *************************** ABOUT *********************************/}
 
-      <section id="about" className="mt-20 flex h-[70vh] justify-center">
+      <section
+        id="about"
+        className="mt-20 flex h-[70vh] scroll-mt-52 justify-center"
+      >
         <div className="mt-10 flex h-full w-3/5 flex-row gap-40">
           <Image
             src={profilePhoto}
@@ -541,8 +553,8 @@ export default function Home() {
           >
             Let&#39;s talk?
           </h2>
-          <form>
-            <div className="grid-col-2 grid w-3/5 gap-4">
+          <form className="flex w-full flex-col items-center justify-center">
+            <div className="grid-col-2 grid w-4/5 gap-4">
               <input
                 type="text"
                 className="h-10 rounded pl-4 text-primary_400 shadow-inputShadow"

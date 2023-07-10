@@ -35,8 +35,10 @@ module.exports = {
 
       keyframes: {
         wiggle: {
-          '0%, 12.5%, 25%, 100%': { transform: 'rotate(-5deg)' },
-          '6.25%, 18.75% ': { transform: 'rotate(25deg)' },
+          '0%, 12.5%, 25%, 37.5%, 50%, 100%': { transform: 'rotate(-5deg)' },
+          '6.25%, 18.75%, 31.25%, 43.75% ': {
+            transform: 'rotate(45deg) scale(1.02)',
+          },
         },
 
         fadeIn: {
