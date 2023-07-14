@@ -19,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`${montserrat.variable} ${inter.variable}`}>
+    <html lang="en" className="scroll-smooth bg-primary_600">
+      <body className={`${montserrat.variable} ${inter.variable} min-w-fit`}>
         {children}
       </body>
     </html>
