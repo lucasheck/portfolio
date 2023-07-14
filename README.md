@@ -31,22 +31,32 @@ DONE:
 
 TO DO:
 
--   Link to resume pdf
--   Improve preview images on project section
--   Shrink menu navbar?
--   Break the page into components
 -   Build responsivity
+    -   NavBar - OK
+    -   Hero - OK
+    -   Projects - OK
+    -   Skills - 
+    -   About
+    -   Contact
+-   Hamburguer Menu Layout - OK
+-   Hamburguer Menu JS
+-   Link to resume pdf
 -   Remove <br> tags
--   Send email
--   Swap the lorem ipsum texts by the correct one.
--   Shrink projects and skills section
+-   Change the project cards to rows - OK
+-   Shrink projects section - OK
+-   Shrink skills section
 -   Add animation for each skill progress bar
--   Change the project cards to rows?
--   Grow the hand animation on hero page
 -   Add animation for each skill on hover the name/icon
--   Show some notification after send email (modal maybe?)
--   Decrease assets file sizes
--   Swap the height values from images by tailwind size classes
 -   Add animation on skill icons when it toogle gray color
-
+-   Send email
+-   Show some notification after send email (modal maybe?)
+-   Swap the lorem ipsum texts by the correct one.
+-   Improve preview images on project section
+-   Decrease assets file sizes
+-   Break the page into smaller components
+    -   Buttons
+    -   Skills Icons
+    -   Skills Progress
+    -   Project Card List
+    -   Project Card
 ##
