@@ -27,7 +27,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex min-h-screen scroll-mt-14 flex-col items-center bg-gradient-to-t from-secondary_200 from-[99%] to-heroGradientEnd to-100% pb-10 text-primary_600"
+      className="flex scroll-mt-14 flex-col items-center bg-gradient-to-t from-secondary_200 from-[99%] to-heroGradientEnd to-100% pb-10 text-primary_600"
     >
       <h2 className="pt-14 text-3xl font-medium after:absolute after:left-1/2 after:z-30 after:h-1 after:w-7 after:-translate-x-1/2 after:translate-y-10 after:rounded-xl after:bg-accent_400 after:content-[''] md:text-5xl md:after:translate-y-16">
         Recent Works
