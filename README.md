@@ -2,6 +2,8 @@
 
 Project: Lucas Heck - Portfolio
 
+Version: 1.2
+
 ##
 
 Objective:
@@ -27,7 +29,8 @@ Technologies used:
 
 DONE:
 
--   The page (basics only)
+-   The page
+-   Responsivity
 
 TO DO:
 
@@ -35,16 +38,16 @@ TO DO:
     -   NavBar - OK
     -   Hero - OK
     -   Projects - OK
-    -   Skills - 
-    -   About
-    -   Contact
+    -   Skills - OK
+    -   About - OK
+    -   Contact - OK
 -   Hamburguer Menu Layout - OK
 -   Hamburguer Menu JS
 -   Link to resume pdf
 -   Remove <br> tags
 -   Change the project cards to rows - OK
 -   Shrink projects section - OK
--   Shrink skills section
+-   Shrink skills section - OK
 -   Add animation for each skill progress bar
 -   Add animation for each skill on hover the name/icon
 -   Add animation on skill icons when it toogle gray color
@@ -57,6 +60,6 @@ TO DO:
     -   Buttons
     -   Skills Icons
     -   Skills Progress
-    -   Project Card List
-    -   Project Card
+    -   Project Card List - OK
+    -   Project Card - OK
 ##

@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <nav>
         <ul
-          className="absolute right-5 top-20 flex flex-col items-center gap-2 rounded bg-skillsGradientEnd p-5 opacity-0 md:static md:flex-row md:gap-6 md:bg-transparent md:opacity-100 lg:gap-14"
+          className="absolute right-5 top-20 hidden flex-col items-center gap-2 rounded bg-skillsGradientEnd p-5 opacity-0 md:static md:flex md:flex-row md:gap-6 md:bg-transparent md:opacity-100 lg:gap-14"
           aria-label="Website Links"
         >
           {[

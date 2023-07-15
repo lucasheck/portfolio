@@ -55,8 +55,7 @@ module.exports = {
           '3px 6px 4px 0px rgba(0, 0, 0, 0.25), inset 15em 0 5em 0 #3A5DE3',
         skillsMenuShadow:
           '10px 10px 20px 0 rgba(0, 0, 0, 0.50), -8px -13px 20px 0 rgba(255, 255, 255, 0.05)',
-        aboutPhotoShadow:
-          '0 4px 4px 0 rgba(0, 0, 0, 0.25), -40px 20px 0 -5px rgba(38, 41, 58, 1) , -40px 20px 0 7px rgba(255, 255, 255, 1)',
+        aboutPhotoShadow: '-5px 5px 4px 0 rgba(0, 0, 0, 0.25)',
         inputShadow: '3px 3px 4px 0px rgba(0, 0, 0, 0.5)',
       },
 

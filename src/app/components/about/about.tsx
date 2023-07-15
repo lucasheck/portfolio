@@ -1,20 +1,19 @@
 import Image from 'next/image'
-import profilePhoto from '../assets/about_me_photo.jpg'
+import profilePhoto from '../../assets/about_me_photo.jpg'
 
 const About = () => {
   return (
-    <section
-      id="about"
-      className="mt-20 flex min-h-screen w-full scroll-mt-52 justify-center"
-    >
-      <div className="mt-10 flex h-full w-3/5 flex-col gap-40 xl:flex-row">
-        <Image
-          src={profilePhoto}
-          className="max-h-[500px] w-auto rounded-md object-contain shadow-aboutPhotoShadow"
-          alt="About me photo"
-        ></Image>
-        <div className="flex flex-col items-center gap-20">
-          <h2 className="pt-10 text-5xl after:absolute after:z-30 after:h-1 after:w-7 after:-translate-x-32 after:translate-y-20 after:rounded-xl after:bg-accent_400 after:content-['']">
+    <section id="about" className="my-24 flex scroll-mt-28 justify-center">
+      <div className="mx-[10%] mt-10 flex w-full flex-col items-center justify-evenly lg:flex-row lg:gap-12">
+        <div className="max-w-[350px] -translate-x-2 rounded-md border-8 border-white object-cover object-center">
+          <Image
+            src={profilePhoto}
+            className="-translate-y-6 translate-x-6 rounded-md shadow-aboutPhotoShadow"
+            alt="About me photo"
+          ></Image>
+        </div>
+        <div className="flex max-w-[750px] flex-1 flex-col items-center gap-20">
+          <h2 className="pt-10 text-5xl after:absolute after:z-30 after:h-1 after:w-7 after:-translate-x-32 after:translate-y-20 after:rounded-xl after:bg-accent_400 after:content-[''] lg:pt-0">
             About me
           </h2>
           <p className="text-justify">
