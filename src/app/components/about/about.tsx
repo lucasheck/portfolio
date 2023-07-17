@@ -3,8 +3,8 @@ import profilePhoto from '../../assets/about_me_photo.jpg'
 
 const About = () => {
   return (
-    <section id="about" className="my-24 flex scroll-mt-28 justify-center">
-      <div className="mx-[10%] mt-10 flex w-full flex-col items-center justify-evenly lg:flex-row lg:gap-12">
+    <section id="about" className="flex scroll-mt-16 justify-center py-24">
+      <div className="mx-[10%] flex w-full flex-col items-center justify-evenly lg:flex-row lg:gap-12">
         <div className="max-w-[350px] -translate-x-2 rounded-md border-8 border-white object-cover object-center">
           <Image
             src={profilePhoto}
@@ -23,7 +23,7 @@ const About = () => {
             sint. Inventore, facilis tenetur. Numquam incidunt, sed odit fuga
             nostrum dolorem eum, nam, quia laudantium perspiciatis in eveniet
             laborum quas. Temporibus a molestiae necessitatibus sapiente
-            voluptas aut obcaecati quaerat at, omnis, facere incidunt similique!{' '}
+            voluptas aut obcaecati quaerat at, omnis, facere incidunt similique!
             <br />
             <br />
             Repudiandae vitae adipisci laudantium dicta vel sint dolorem

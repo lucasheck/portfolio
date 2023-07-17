@@ -30,13 +30,12 @@ const Skills = () => {
   const toggleTab = (tabIndex: number) => {
     setSkillTab(tabIndex)
   }
-
   return (
     <section
       id="skills"
-      className="flex scroll-mt-14 flex-col items-center bg-gradient-to-t from-primary_600 from-[98%] to-secondary_200 to-100%"
+      className="flex scroll-mt-14 flex-col items-center bg-gradient-to-t from-primary_600 from-[98%] to-secondary_200 to-100% pb-20"
     >
-      <h2 className="py-14 text-3xl font-normal after:absolute after:left-1/2 after:z-30 after:h-1 after:w-7 after:-translate-x-1/2 after:translate-y-16 after:rounded-xl after:bg-accent_400 after:content-[''] md:text-4xl">
+      <h2 className="py-16 text-3xl font-normal after:absolute after:left-1/2 after:z-30 after:h-1 after:w-7 after:-translate-x-1/2 after:translate-y-16 after:rounded-xl after:bg-accent_400 after:content-[''] md:text-4xl">
         Professional Skills
       </h2>
 

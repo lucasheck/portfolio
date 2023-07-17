@@ -43,7 +43,7 @@ const Card = ({
             <Link
               href={githubLink}
               target="_blank"
-              className="flex h-[50px] w-36 items-center justify-evenly rounded-[25px] bg-accent_400 px-2 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
+              className="flex h-11 w-36 items-center justify-evenly rounded-[25px] bg-accent_600 px-2 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
             >
               <Image
                 src={GithubBtn}
@@ -56,7 +56,7 @@ const Card = ({
 
             <Link
               href={liveDemoLink}
-              className="flex h-[50px] w-40 items-center justify-evenly rounded-[25px] bg-accent_400 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
+              className="flex h-11 w-40 items-center justify-evenly rounded-[25px] bg-accent_600 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
               target="_blank"
             >
               <Image
