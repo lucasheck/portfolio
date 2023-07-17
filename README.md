@@ -2,7 +2,7 @@
 
 Project: Lucas Heck - Portfolio
 
-Version: 1.2
+Version: 1.3
 
 ##
 

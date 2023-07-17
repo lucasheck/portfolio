@@ -45,7 +45,7 @@ const Hero = () => {
             <Image
               src={Resume}
               alt="resume"
-              className="rounded-lg rounded-tl-2xl border border-white bg-gray-300 bg-white opacity-50 transition ease-linear"
+              className="rounded-lg rounded-tl-2xl border border-white bg-gray-300 opacity-50 transition ease-linear"
             />
           </div>
         </div>
