@@ -3,34 +3,34 @@ import Image from 'next/image'
 
 import LineBtn from '../../assets/btnLine.svg'
 import sendMessageIcon from '../../assets/sendMessage.svg'
-import { IEmailProps, sendContactForm } from '../../lib/api'
-import { useState } from 'react'
+// import { IEmailProps, sendContactForm } from '../../lib/api'
+// import { useState } from 'react'
 
 const Contact = () => {
-  const [isLoading, setIsLoading] = useState(false)
-  const [emailForm, setEmailForm] = useState<IEmailProps>({
-    name: 'Lucas Tomaz Heck',
-    email: 'lucas@email.com',
-    message:
-      'Hi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat sit hic necessitatibus, atque esse repellendus accusantium ipsam nisi odio.',
-  })
+  // const [isLoading, setIsLoading] = useState(false)
+  // const [emailForm, setEmailForm] = useState<IEmailProps>({
+  //   name: 'Lucas Tomaz Heck',
+  //   email: 'lucas@email.com',
+  //   message:
+  //     'Hi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat sit hic necessitatibus, atque esse repellendus accusantium ipsam nisi odio.',
+  // })
 
-  const response = {
-    status: 200,
-    message: 'OK',
-  }
-  const submitHandler = async () => {
-    setIsLoading(true)
-    // const response = await sendContactForm(emailForm)
-    if (response.status === 200) {
-      /* MESSAGE SENT */
-      console.log(response.message)
-    } else {
-      /* ERROR */
-      console.log(response.message)
-    }
-    setIsLoading(false)
-  }
+  // const response = {
+  //   status: 200,
+  //   message: 'OK',
+  // }
+  // const submitHandler = async () => {
+  //   setIsLoading(true)
+  //   // const response = await sendContactForm(emailForm)
+  //   if (response.status === 200) {
+  //     /* MESSAGE SENT */
+  //     console.log(response.message)
+  //   } else {
+  //     /* ERROR */
+  //     console.log(response.message)
+  //   }
+  //   setIsLoading(false)
+  // }
   return (
     <section id="contact" className="flex w-full justify-center px-[5%] pb-10">
       <div className="flex w-full flex-col items-center gap-14">
@@ -62,7 +62,7 @@ const Contact = () => {
           <button
             className="flex h-11 w-44 items-center justify-evenly rounded-[25px] bg-accent_600 text-white shadow-btnShadow transition duration-300 ease-linear hover:shadow-btnShadowHover"
             type="button"
-            onClick={submitHandler}
+            // onClick={submitHandler}
           >
             <Image
               src={sendMessageIcon}
