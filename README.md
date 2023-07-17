@@ -42,18 +42,23 @@ TO DO:
     -   About - OK
     -   Contact - OK
 -   Hamburguer Menu Layout - OK
--   Hamburguer Menu JS
--   Link to resume pdf
--   Remove <br> tags
+-   Hamburguer Menu JS - OK
+-   Hamburguer Menu Animation - OK
 -   Change the project cards to rows - OK
 -   Shrink projects section - OK
 -   Shrink skills section - OK
+-   Change the color on menu while scrool the page - OK
+-   Fix the bug when scroll are between skills and about
+-   Enhance the button contrast ratio - OK
+-   Add animation onFocus items (not only hover)
 -   Add animation for each skill progress bar
 -   Add animation for each skill on hover the name/icon
 -   Add animation on skill icons when it toogle gray color
 -   Send email
 -   Show some notification after send email (modal maybe?)
 -   Swap the lorem ipsum texts by the correct one.
+-   Link to resume pdf
+-   Remove <br> tags
 -   Improve preview images on project section
 -   Decrease assets file sizes
 -   Break the page into smaller components
