@@ -22,6 +22,7 @@ export const sendContactForm = async (data: IEmailProps) => {
       }
     : {
         status: response.status,
-        message: 'Sorry, your email was not sent!',
+        message:
+          'Sorry, your email was not sent! Please contact me on linkedin.',
       }
 }
