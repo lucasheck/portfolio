@@ -2,7 +2,7 @@
 
 Project: Lucas Heck - Portfolio
 
-Version: 1.3
+Version: 1.4
 
 ##
 
@@ -30,7 +30,6 @@ Technologies used:
 DONE:
 
 -   The page
--   Responsivity
 
 TO DO:
 
@@ -49,14 +48,16 @@ TO DO:
 -   Shrink skills section - OK
 -   Change the color on menu while scrool the page - OK
 -   Fix the bug when scroll are between skills and about
+-   Fix the bug when shrink page width and navbar touch the name
 -   Enhance the button contrast ratio - OK
 -   Add animation onFocus items (not only hover)
 -   Add animation for each skill progress bar
 -   Add animation for each skill on hover the name/icon
 -   Add animation on skill icons when it toogle gray color
--   Send email
--   Show some notification after send email (modal maybe?)
--   Swap the lorem ipsum texts by the correct one.
+-   Create a component to replace the form and to notify when the message was sent successfully
+-   Send email - OK
+-   Show some notification after send email (modal maybe?) - OK
+-   Swap the lorem ipsum texts by the correct one
 -   Link to resume pdf
 -   Remove <br> tags
 -   Improve preview images on project section
