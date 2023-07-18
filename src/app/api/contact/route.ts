@@ -6,12 +6,16 @@ export async function POST(request: NextRequest) {
   const { name, email, message } = json
 
   try {
-    await transporter.sendMail({
-      ...mailOptions,
-      subject: `New portfolio message - from ${name}`,
-      text: '',
-      html: `<h3>Portfolio Message</h3><br/><span>From: ${name}</span><br/><span>Email: ${email}</span><br/><p>${message}</p>`,
-    })
+    const sendMessage = async () => {
+      await transporter.sendMail({
+        ...mailOptions,
+        subject: `New portfolio message - from ${name}`,
+        text: '',
+        html: `<h3>Portfolio Message</h3><br/><span>From: ${name}</span><br/><span>Email: ${email}</span><br/><p>${message}</p>`,
+      })
+    }
+
+    await sendMessage()
 
     return NextResponse.json({
       status: 200,
