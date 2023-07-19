@@ -6,7 +6,7 @@ export async function POST(request: NextRequest) {
   const { name, email, message } = json
 
   try {
-    const sendMessage = async () => {
+    const sendMessage = async (message: any) => {
       await transporter.sendMail({
         ...mailOptions,
         subject: `New portfolio message - from ${name}`,
@@ -15,9 +15,11 @@ export async function POST(request: NextRequest) {
       })
     }
 
-    await sendMessage()
+    const response = await sendMessage(message)
 
+    console.log(response)
     return NextResponse.json({
+      reponse: response,
       status: 200,
     })
   } catch (error) {

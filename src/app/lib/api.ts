@@ -14,6 +14,8 @@ export const sendContactForm = async (data: IEmailProps) => {
     },
   })
 
+  console.log(response.json())
+
   return response.status === 200
     ? {
         status: 200,
