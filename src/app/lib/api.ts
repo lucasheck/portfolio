@@ -5,7 +5,7 @@ export interface IEmailProps {
 }
 
 export const sendContactForm = async (data: IEmailProps) => {
-  const response = await fetch('/api/sendMail', {
+  const response = await fetch('/api/mail', {
     method: 'POST',
     body: JSON.stringify(data),
     headers: {

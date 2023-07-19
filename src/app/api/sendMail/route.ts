@@ -1,10 +1,10 @@
-import { NextResponse } from 'next/server'
+import { NextRequest, NextResponse } from 'next/server'
 import nodemailer from 'nodemailer'
 
 const emailFrom = process.env.email
 const password = process.env.password
 
-export async function POST(req, res) {
+export async function POST(req: NextRequest, res: NextResponse) {
   const { name, email, message } = await req.json()
 
   const transporter = nodemailer.createTransport({
@@ -19,7 +19,7 @@ export async function POST(req, res) {
 
   await new Promise((resolve, reject) => {
     // verify connection configuration
-    transporter.verify(function (error, success) {
+    transporter.verify(function (error: any, success: any) {
       if (error) {
         console.log(error)
         reject(error)
@@ -31,10 +31,7 @@ export async function POST(req, res) {
   })
 
   const mailData = {
-    from: {
-      name: 'Lucas',
-      address: emailFrom,
-    },
+    from: emailFrom,
     replyTo: emailFrom,
     to: emailFrom,
     subject: `New portfolio message - from ${name}`,
@@ -45,7 +42,7 @@ export async function POST(req, res) {
   try {
     await new Promise((resolve, reject) => {
       // send mail
-      transporter.sendMail(mailData, (err, info) => {
+      transporter.sendMail(mailData, (err: any, info: any) => {
         if (err) {
           console.error(err)
           reject(err)
