@@ -57,9 +57,9 @@ TO DO:
 -   Create a component to replace the form and to notify when the message was sent successfully
 -   Send email - OK
 -   Show some notification after send email (modal maybe?) - OK
--   Swap the lorem ipsum texts by the correct one
+-   Swap the lorem ipsum texts by the correct one - OK
 -   Link to resume pdf
--   Remove <br> tags
+-   Remove <br> tags - OK
 -   Improve preview images on project section
 -   Decrease assets file sizes
 -   Break the page into smaller components
