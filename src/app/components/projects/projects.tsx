@@ -9,7 +9,7 @@ const Projects = () => {
       'Experience seamless online shopping with our \n captivating e-commerce clothing platform.',
     imagePath: MonitorCrown,
     description:
-      'Description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis consequatur quos veritatis quia saepe modi, harum rerum vero nesciunt assumenda itaque, ipsum accusantium possimus ex nulla sint. Inventore, facilis tenetur. Techs Used: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo id quam laoreet vulputate vitae sed diam.',
+      "Published on the Netlify server, Crown Clothing is an online clothing store that allows users to browse the shop, add products to their cart, and immerse themselves in a virtual shopping experience. Although a fictional project, this e-commerce serves as a practical example of my dedication to honing my skills as a full-stack developer and creating engaging web applications. \n\n By utilizing React, Typescript and Styled Components, I crafted a modern and responsive interface that provides an immersive shopping experience for users. Additionally, the integration of React-Redux enabled the creation of a global state, ensuring smooth and interactive navigation. \n\n Security and reliability are ensured through the powerful Google solution, Firebase Authentication. Furthermore, with Firebase Firestore, I implemented full data storage functionality, enabling real-time queries of the store's categories and product information.",
     githubLink: 'https://github.com/lucasheck/crown-clothing',
     liveDemoLink: 'https://master--boisterous-pika-b91b7d.netlify.app/',
   }
@@ -19,7 +19,7 @@ const Projects = () => {
       'Collect memorable moments from your journey \n and share (if you want) with the world!',
     imagePath: MonitorSpacetime,
     description:
-      'Description: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis consequatur quos veritatis quia saepe modi, harum rerum vero nesciunt assumenda itaque, ipsum accusantium possimus ex nulla sint. Inventore, facilis tenetur. Techs Used: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus in justo id quam laoreet vulputate vitae sed diam.',
+      'The Spacetime project, developed with the aim of collecting memories and special moments, allows users to store photos or videos, along with the date of the memory and a description. \n\n With a responsive and bilingual interface, the frontend was built using Next.js, React, TypeScript, and Tailwind CSS. The backend, created with Node.js and TypeScript, uses the Prisma database and APIs developed with Axios and Fastify. Additionally, a mobile app was developed using Expo, React Native, Tailwind CSS, and TypeScript, providing a complete experience for users, allowing access to memories on both the web and mobile devices. \n\n Although the project has not been publicly published, a video demonstrating its features is available through the link provided in this card. I developed the Spacetime project to enhance my full-stack skills and create a versatile solution for storing and sharing cherished memories.',
     githubLink: 'https://github.com/lucasheck/spacetime_web',
     liveDemoLink:
       'https://www.linkedin.com/posts/lucas-tomaz-heck_nlw-rocketseat-neverstoplearning-activity-7073977255110033409-xA4k',

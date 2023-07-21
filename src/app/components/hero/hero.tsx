@@ -49,9 +49,10 @@ const Hero = () => {
             />
           </div>
         </div>
-        <p className="text-center text-base md:text-right">
-          I have 34 years old, I&#039;m a developer with 7 years of experience
-          <br /> working as fullstack developer
+        <p className="whitespace-pre-line text-center text-base md:text-right">
+          {
+            "I'm 34 years old, and I have 7 years of experience \n working as a fullstack developer."
+          }
         </p>
       </div>
     </section>

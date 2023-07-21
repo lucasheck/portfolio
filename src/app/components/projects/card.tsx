@@ -35,7 +35,7 @@ const Card = ({
         />
 
         <div className="flex flex-1 flex-col items-center justify-between gap-5 lg:mt-5">
-          <p className="w-11/12 text-justify text-sm md:text-base">
+          <p className="w-11/12 whitespace-pre-line text-justify text-sm md:text-base">
             {description}
           </p>
 
