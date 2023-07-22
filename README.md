@@ -2,7 +2,7 @@
 
 Project: Lucas Heck - Portfolio
 
-Version: 1.4
+Version: 1.5
 
 ##
 
@@ -48,7 +48,7 @@ TO DO:
 -   Shrink skills section - OK
 -   Change the color on menu while scrool the page - OK
 -   Fix the bug when scroll are between skills and about
--   Fix the bug when shrink page width and navbar touch the name
+-   Fix the bug when shrink page width and navbar touch the name - OK
 -   Enhance the button contrast ratio - OK
 -   Add animation onFocus items (not only hover)
 -   Add animation for each skill progress bar
@@ -58,7 +58,7 @@ TO DO:
 -   Send email - OK
 -   Show some notification after send email (modal maybe?) - OK
 -   Swap the lorem ipsum texts by the correct one - OK
--   Link to resume pdf
+-   Link to resume pdf - OK
 -   Remove <br> tags - OK
 -   Improve preview images on project section
 -   Decrease assets file sizes

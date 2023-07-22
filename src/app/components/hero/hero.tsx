@@ -11,6 +11,7 @@ const Hero = () => {
       className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-heroGradientStart from-10% to-heroGradientEnd to-95% px-4"
       id="home"
     >
+      <h2 className="hidden opacity-0">Hero</h2>
       <div className="flex flex-col gap-5 ">
         <div className="flex w-full flex-row justify-center gap-2 md:justify-normal">
           <span>HI</span>
@@ -42,11 +43,13 @@ const Hero = () => {
                 className="cursor-pointer rounded-full border border-white bg-white transition ease-linear hover:-translate-y-1 hover:translate-x-1 hover:bg-yellow-300"
               />
             </Link>
-            <Image
-              src={Resume}
-              alt="resume"
-              className="rounded-lg rounded-tl-2xl border border-white bg-gray-300 opacity-50 transition ease-linear"
-            />
+            <a href="/lucasheck_resume.pdf" download>
+              <Image
+                src={Resume}
+                alt="resume"
+                className="cursor-pointer rounded-lg rounded-tl-2xl border border-white bg-white transition ease-linear hover:-translate-y-1 hover:translate-x-1 hover:bg-yellow-300"
+              />
+            </a>
           </div>
         </div>
         <p className="whitespace-pre-line text-center text-base md:text-right">

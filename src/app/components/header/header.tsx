@@ -83,8 +83,8 @@ const Header = ({ yOffSet }: HeaderProps) => {
         <ul
           className={
             openMenu
-              ? 'absolute right-5 top-20 flex animate-dropDownMenu flex-col items-center gap-2 rounded-xl bg-skillsGradientEnd opacity-100 md:static md:flex md:flex-row md:gap-6 md:bg-transparent md:opacity-100 lg:gap-14'
-              : 'absolute right-5 top-20 hidden animate-dropDownMenu flex-col items-center gap-2 rounded-xl bg-skillsGradientEnd opacity-0 md:static md:flex md:flex-row md:gap-6 md:bg-transparent md:opacity-100 lg:gap-14'
+              ? 'absolute right-5 top-20 flex animate-dropDownMenu flex-col items-center gap-2 rounded-xl bg-skillsGradientEnd opacity-100 md:static md:flex md:flex-row md:gap-0 md:bg-transparent md:opacity-100 lg:gap-14'
+              : 'absolute right-5 top-20 hidden animate-dropDownMenu flex-col items-center gap-2 rounded-xl bg-skillsGradientEnd opacity-0 md:static md:flex md:flex-row md:gap-0 md:bg-transparent md:opacity-100 lg:gap-14'
           }
           aria-label="Website Links"
         >
