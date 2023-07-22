@@ -39,7 +39,7 @@ const Card = ({
             {description}
           </p>
 
-          <div id="card-buttons" className="flex w-4/5 justify-evenly pb-6">
+          <div className="flex w-4/5 justify-evenly pb-6">
             <Link
               href={githubLink}
               target="_blank"
