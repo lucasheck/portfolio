@@ -14,7 +14,7 @@ This portfolio was created for training and enhance my development skills.
 
 Project published at:
 
-https://portfolio-zeta-fawn-30.vercel.app/
+https://portfolio-lucasheck.vercel.app/
 
 ##
 
