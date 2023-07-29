@@ -75,7 +75,7 @@ const Header = ({ yOffSet }: HeaderProps) => {
           alt="Logo"
           className="transition duration-300 ease-linear hover:scale-110"
         />
-        <span className="transition ease-linear hover:text-accent_400">
+        <span className="transition ease-linear focus-within:text-accent_400 hover:text-accent_400">
           <a href="#">LUCAS HECK</a>
         </span>
       </div>
@@ -94,7 +94,7 @@ const Header = ({ yOffSet }: HeaderProps) => {
               className={
                 section.active
                   ? 'flex w-full bg-accent_600/20 transition-colors ease-linear hover:text-accent_400'
-                  : 'flex w-full transition-colors ease-linear hover:text-accent_400'
+                  : 'flex w-full transition-colors ease-linear focus-within:text-accent_400 hover:text-accent_400'
               }
               onClick={() => setOpenMenu(false)}
             >

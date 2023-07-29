@@ -2,11 +2,20 @@ export interface SkillProps {
   id: number
   name: string
   percentage: number
+  handleHover: (item: number) => void
 }
 
-const Skill = ({ id, name, percentage }: SkillProps) => {
+const Skill = ({ id, name, percentage, handleHover }: SkillProps) => {
+  const handleTeste = (value: number) => {
+    handleHover(value)
+  }
   return (
-    <li key={id} className="relative h-10 w-full">
+    <li
+      key={id}
+      className="relative h-10 w-full"
+      onMouseEnter={() => handleTeste(id)}
+      onMouseLeave={() => handleTeste(0)}
+    >
       <div className="flex">
         <span className="-translate-y-3">{name}</span>
         <span

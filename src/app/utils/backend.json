@@ -14,35 +14,35 @@
     },
 
     {
-        "id": 13,
+        "id": 10,
         "name":"NodeJS",
         "value":399,
         "percentage":70
     },
 
     {
-        "id": 14,
+        "id": 11,
         "name":"Prisma Database",
         "value":363,
         "percentage":75
     },
 
     {
-        "id": 15,
+        "id": 12,
         "name":"Jest",
         "value":242.5,
         "percentage":50
     },
 
     {
-        "id": 16,
+        "id": 13,
         "name":"Fastify",
         "value":291,
         "percentage":60
     },
 
     {
-        "id": 17,
+        "id": 14,
         "name":"Rest API",
         "value":388,
         "percentage":80
